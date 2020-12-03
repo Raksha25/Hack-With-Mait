@@ -1,3 +1,4 @@
+
 :root {
     --primary-color: #FBBF24;
 }
@@ -13,9 +14,17 @@
     height: 3rem;
     width: 11rem;
 }
-
 .jumbContainer {
     height: fit-content;
+
+.navbar {
+  background-color: #f7dd0e;
+  height: 4.5rem;
+  font-size: 1.3rem;
+}
+.jumbContainer {
+  height: fit-content;
+
 }
 
 .jumbImg {
@@ -25,6 +34,7 @@
     height: 40rem;
 }
 
+
 .jumbTxt {
     position: absolute;
     top: 50%;
@@ -33,6 +43,16 @@
     background-color: rgba(0, 0, 0, 0.4);
     color: white;
     font-size: 4rem;
+
+.jumbTxt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  font-size: 4rem;
+
 }
 
 .jumbTxt .heading1 {
@@ -40,6 +60,10 @@
     font-size: 7rem;
     /* z-index: 2; */
 }
+
+  font-weight: 700;
+  font-size: 7rem;
+
 
 .form-btn {
     background-color: var(--primary-color);
@@ -56,8 +80,18 @@
     height: 20vh;
 }
 
+
 .form-btn:hover {
     background-color: black;
     transition: 0.8s;
     color: var(--primary-color);
 }
+
+/* ----MATHS----- */
+#row1-cards {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
